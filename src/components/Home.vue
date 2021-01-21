@@ -22,7 +22,7 @@
               name="definition"
               type="text">
         </div>
-        <button class="button" type="submit">Add Word</button>
+        <button class="btn" type="submit">Add Word</button>
       </form>
       <hr/>
       <div>
@@ -44,7 +44,7 @@
                 <td colspan="2">No List Found</td>
               </tr>
           </table>
-            <button class="print" v-if="lists.length > 0" type="submit"  @click.stop="printWorksheet">Print Worksheet</button>
+            <button class="btn print" v-if="lists.length > 0" type="submit"  @click.stop="printWorksheet">Print Worksheet</button>
       </div>
   </div>
 </template>
